@@ -2177,13 +2177,13 @@ header .logo a {
 /** 
  * ===================================================================
  * 16. stats - (_layout.scss)
- *
  * ------------------------------------------------------------------- 
  */
 #stats {
 	background: #61BCFF;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
+	padding-left: auto;
 	text-align: center;
 	margin: auto;
 }
