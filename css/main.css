@@ -2185,6 +2185,7 @@ header .logo a {
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
+	margin: auto;
 }
 #stats .row {
 	max-width: 1440px;
