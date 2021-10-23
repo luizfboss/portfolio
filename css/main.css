@@ -1680,7 +1680,6 @@ header .logo a {
 	left: 0;
 	bottom: 0;
 }
-
 /**
  * responsive:
  * resume
@@ -1735,6 +1734,9 @@ header .logo a {
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 7rem;
+	}
+	#resume .timeline-block .timeline-content p{
+		color: #EBEBEB;
 	}
 }
 @media only screen and (max-width:480px) {
