@@ -2575,6 +2575,11 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+#resumea {
+	color: #4a95cc;
+}
+
+
 /*# sourceMappingURL=main.css.map */
 .col-twelve .typewriter h1 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
