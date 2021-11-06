@@ -416,7 +416,7 @@ img.pull-left {
  *
  * ------------------------------------------------------------------- 
  */
-#preloader {
+/*#preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -472,7 +472,6 @@ img.pull-left {
 		transform: rotate(360deg);
 	}
 }
-
 /** 
  * ===================================================================
  * 05. forms - (_forms.scss)
@@ -2601,6 +2600,6 @@ footer .copyright span:last-child::after {
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #61BCFF; }
+	from, to { border-color: transparent } 
+	{ border-color: #61BCFF; }
   }
