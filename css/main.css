@@ -2602,5 +2602,6 @@ footer .copyright span:last-child::after {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
 	from, to { border-color: transparent } 
-	{ border-color: #61BCFF; }
+	{border-color: #61BCFF;}
   }
+  
