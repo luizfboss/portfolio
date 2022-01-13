@@ -1659,7 +1659,12 @@ header .logo a {
 #extracurriculars{
 	color: rgb(173, 113, 0);
 }
-
+#portfolio{
+	color: yellow;
+}
+#portfolio-p{
+	color: white;
+}
 
 
 
