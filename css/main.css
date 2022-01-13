@@ -128,7 +128,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: white;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1465,7 +1465,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: black;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1498,9 +1498,13 @@ header .logo a {
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
+	color: #61BCFF;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+}
+.about-content p{
+	color: white;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1512,7 +1516,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #61BCFF;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1521,13 +1525,50 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: white;
 	font-size: 1.5rem;
 	line-height: 1;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
+.about-content button{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: black;
+}
+#button-html{
+	border-color: blue;
+	color: blue;
+}
+#button-css{
+	border-color: rgb(206, 83, 206);
+	color: rgb(206, 83, 206);
+}
+#button-javascript{
+	border-color: yellow;
+	color: yellow;
+}
+#button-python{
+	border-color: lightskyblue;
+	color: lightskyblue;
+}
+#button-photoshop{
+	border-color: rgb(32, 164, 247);
+	color: rgb(32, 164, 247);
+}
+#button-illustrator{
+	border-color: orange;
+	color: orange;
+}
+#button-premiere{
+	border-color: rgb(159, 0, 252);
+	color: rgb(225, 0, 255);
+}
+
+
+
+
 
 .button-section {
 	text-align: center;
@@ -1596,16 +1637,31 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
+	background-color: black;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-
 #resume .resume-header {
 	text-align: center;
 }
-#resume .resume-header h2 {
-	color: #61BCFF;
+
+
+
+#academic-background{
+	color: purple;
 }
+#academic-background-p, #other-courses-p, #extracurriculars-p{
+	color: white;
+}
+#other-courses{
+	color: rgb(55, 55, 160);
+}
+#extracurriculars{
+	color: rgb(173, 113, 0);
+}
+
+
+
 
 #resume .resume-timeline {
 	max-width: 980px;
@@ -1620,7 +1676,6 @@ header .logo a {
 	display: block;
 	width: 1px;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
 	position: absolute;
 	left: 35%;
 	top: 0;
@@ -1655,12 +1710,12 @@ header .logo a {
 	text-align: right;
 }
 #resume .timeline-header h3 {
+	
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1675,7 +1730,6 @@ header .logo a {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1736,7 +1790,7 @@ header .logo a {
 		padding-left: 7rem;
 	}
 	#resume .timeline-block .timeline-content p{
-		color: #EBEBEB;
+		color: #ffffff;
 	}
 }
 @media only screen and (max-width:480px) {
@@ -1767,7 +1821,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background-color: black;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2576,7 +2630,7 @@ footer .copyright span:last-child::after {
 }
 
 #resumea {
-	color: #4a95cc;
+	color: yellow;
 }
 
 
