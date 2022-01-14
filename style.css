@@ -6,6 +6,10 @@
 .cube{
   display: flex;
 }
+#container-2{
+  width: 225px;
+}
+
 
 @keyframes turn {
   from { transform: rotate3d(0, 0, 0, 0); }
@@ -20,7 +24,7 @@
 }
 
 .container {
-  width: 600px;
+  width: 300px;
   margin: 100px auto;
   perspective: 500px;
 }
