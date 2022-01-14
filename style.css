@@ -25,8 +25,7 @@
 
 .container {
   width: 300px;
-  margin: 100px auto;
-  perspective: 500px;
+  margin: 10px auto;
 }
 
 .cube {
