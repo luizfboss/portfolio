@@ -1465,7 +1465,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: black;
+	background: rgba(0, 0, 0, 0.993);
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
