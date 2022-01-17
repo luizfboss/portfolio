@@ -30,6 +30,71 @@
   width: 300px;
 }
 
+.portfolio-subtitle{
+  color: white;
+}
+
+
+
+/*Buttons*/
+.btn-html{
+  border: 1px solid blue;
+  border-radius: 30px;
+  background-color: black;
+  color: blue;
+}
+.btn-css{
+  border: 1px solid magenta;
+  border-radius: 30px;
+  background-color: black;
+  color: magenta;
+}
+.btn-js{
+  border: 1px solid yellow;
+  border-radius: 30px;
+  background-color: black;
+  color: yellow;
+}
+.btn-python{
+  border: 1px solid #275C87;
+  border-radius: 30px;
+  background-color: black;
+  color: #275C87;
+}
+.btn-bootstrap{
+  border: 1px solid purple;
+  border-radius: 30px;
+  background-color: black;
+  color: purple;
+}
+.btn-ui{
+  border: 1px solid orangered;
+  border-radius: 30px;
+  background-color: black;
+  color: orangered;
+}
+.btn-responsive{
+  border: 1px solid green;
+  border-radius: 30px;
+  background-color: black;
+  color: green;
+}
+.btn-auto{
+  border: 1px solid lightblue;
+  border-radius: 30px;
+  background-color: black;
+  color: lightblue;
+}
+.btn-game{
+  border: 1px solid crimson;
+  border-radius: 30px;
+  background-color: black;
+  color: crimson;
+}
+
+
+
+
 
 .cube {
   position: relative;
@@ -66,7 +131,6 @@
 .front #js{
   width: 100%;
 }
-
 
 
 .face {
