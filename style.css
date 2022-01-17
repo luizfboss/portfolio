@@ -38,22 +38,22 @@
 
 /*Buttons*/
 .btn-html{
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 140, 255);
   border-radius: 30px;
   background-color: black;
-  color: blue;
+  color: rgb(0, 140, 255);
 }
 .btn-css{
-  border: 1px solid magenta;
+  border: 1px solid rgb(255, 115, 255);
   border-radius: 30px;
   background-color: black;
-  color: magenta;
+  color: rgb(255, 115, 255);
 }
 .btn-js{
-  border: 1px solid yellow;
+  border: 1px solid #fff099;
   border-radius: 30px;
   background-color: black;
-  color: yellow;
+  color: #fff099;
 }
 .btn-python{
   border: 1px solid #275C87;
@@ -62,22 +62,22 @@
   color: #275C87;
 }
 .btn-bootstrap{
-  border: 1px solid purple;
+  border: 1px solid rgb(116, 60, 190);
   border-radius: 30px;
   background-color: black;
-  color: purple;
+  color: rgb(116, 60, 190);
 }
 .btn-ui{
-  border: 1px solid orangered;
+  border: 1px solid rgb(199, 107, 74);
   border-radius: 30px;
   background-color: black;
-  color: orangered;
+  color: rgb(199, 107, 74);
 }
 .btn-responsive{
-  border: 1px solid green;
+  border: 1px solid rgb(95, 219, 95);
   border-radius: 30px;
   background-color: black;
-  color: green;
+  color: rgb(102, 218, 102);
 }
 .btn-auto{
   border: 1px solid lightblue;
@@ -86,13 +86,17 @@
   color: lightblue;
 }
 .btn-game{
-  border: 1px solid crimson;
+  border: 1px solid rgb(241, 99, 128);
   border-radius: 30px;
   background-color: black;
-  color: crimson;
+  color: rgb(241, 99, 128);
 }
-
-
+.btn-pro{
+  border: 1px solid orange;
+  border-radius: 30px;
+  background-color: black;
+  color: orange;
+}
 
 
 

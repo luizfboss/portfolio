@@ -1647,19 +1647,19 @@ header .logo a {
 
 
 #academic-background{
-	color: purple;
+	color: #fff099;
 }
 #academic-background-p, #other-courses-p, #extracurriculars-p{
 	color: white;
 }
 #other-courses{
-	color: rgb(55, 55, 160);
+	color: cornflowerblue;
 }
 #extracurriculars{
 	color: rgb(173, 113, 0);
 }
 #portfolio{
-	color: yellow;
+	color: #61BCFF;
 }
 #portfolio-p{
 	color: white;
@@ -2635,7 +2635,7 @@ footer .copyright span:last-child::after {
 }
 
 #resumea {
-	color: yellow;
+	color: #61BCFF;
 }
 
 
