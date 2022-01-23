@@ -97,6 +97,12 @@
   background-color: black;
   color: orange;
 }
+.btn-game{
+  border: 1px solid rgb(0, 255, 242);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(0, 255, 242);
+}
 
 
 .cube {
