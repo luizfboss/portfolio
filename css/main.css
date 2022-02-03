@@ -128,7 +128,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: white;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -416,7 +416,7 @@ img.pull-left {
  *
  * ------------------------------------------------------------------- 
  */
-#preloader {
+/*#preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -472,8 +472,8 @@ img.pull-left {
 		transform: rotate(360deg);
 	}
 }
-
-/** 
+*/
+/*
  * ===================================================================
  * 05. forms - (_forms.scss)
  *
@@ -1465,7 +1465,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: rgba(0, 0, 0, 0.993);
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1498,9 +1498,13 @@ header .logo a {
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
+	color: #61BCFF;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+}
+.about-content p{
+	color: white;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1512,7 +1516,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #61BCFF;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1521,13 +1525,49 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: white;
 	font-size: 1.5rem;
 	line-height: 1;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
+.about-content button{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: black;
+}
+#button-html{
+	border-color: blue;
+	color: blue;
+}
+#button-css{
+	border-color: rgb(206, 83, 206);
+	color: rgb(206, 83, 206);
+}
+#button-javascript{
+	border-color: yellow;
+	color: yellow;
+}
+#button-python{
+	border-color: lightskyblue;
+	color: lightskyblue;
+}
+#button-photoshop{
+	border-color: rgb(32, 164, 247);
+	color: rgb(32, 164, 247);
+}
+#button-illustrator{
+	border-color: orange;
+	color: orange;
+}
+#button-premiere{
+	border-color: rgb(159, 0, 252);
+	color: rgb(225, 0, 255);
+}
+
+
+
 
 .button-section {
 	text-align: center;
@@ -1596,16 +1636,36 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
+	background-color: black;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
-
 #resume .resume-header {
 	text-align: center;
 }
-#resume .resume-header h2 {
+
+
+
+#academic-background{
+	color: #fff099;
+}
+#academic-background-p, #other-courses-p, #extracurriculars-p{
+	color: white;
+}
+#other-courses{
+	color: cornflowerblue;
+}
+#extracurriculars{
+	color: rgb(173, 113, 0);
+}
+#portfolio{
 	color: #61BCFF;
 }
+#portfolio-p{
+	color: white;
+}
+
+
 
 #resume .resume-timeline {
 	max-width: 980px;
@@ -1620,7 +1680,6 @@ header .logo a {
 	display: block;
 	width: 1px;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
 	position: absolute;
 	left: 35%;
 	top: 0;
@@ -1655,12 +1714,12 @@ header .logo a {
 	text-align: right;
 }
 #resume .timeline-header h3 {
+	
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1675,12 +1734,10 @@ header .logo a {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
 	position: absolute;
 	left: 0;
 	bottom: 0;
 }
-
 /**
  * responsive:
  * resume
@@ -1736,6 +1793,9 @@ header .logo a {
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 7rem;
 	}
+	#resume .timeline-block .timeline-content p{
+		color: #ffffff;
+	}
 }
 @media only screen and (max-width:480px) {
 	#resume .resume-header h2 {
@@ -1764,17 +1824,18 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#portfolio {
-	background: #FFFFFF;
+ #portfolio {
+	background-color: black;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 90px;
 	position: relative;
 	overflow: hidden;
 }
 #portfolio .folio-item img {
+	margin-bottom: 50px;
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -2573,6 +2634,11 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+#resumea {
+	color: #61BCFF;
+}
+
+
 /*# sourceMappingURL=main.css.map */
 .col-twelve .typewriter h1 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -2594,6 +2660,11 @@ footer .copyright span:last-child::after {
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #61BCFF; }
+	from {
+		border-color: transparent 
+	} 
+	to {
+		border-color: #61BCFF;
+	}
   }
+  

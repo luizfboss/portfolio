@@ -1,0 +1,199 @@
+.container{
+  display: flex;
+}
+
+.cube{
+  display: flex;
+}
+#container-2{
+  width: 225px;
+}
+
+
+@keyframes turn {
+  from { transform: rotate3d(0, 0, 0, 0); }
+  to { transform: rotate3d(1, 1, 0, 360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cube {
+    animation: none;
+    transform: rotate3d(1, 1, 0, 45deg);
+  }
+}
+
+.container {
+  width: 300px;
+  margin: 10px auto;
+}
+#container-2{
+  width: 300px;
+}
+
+.portfolio-subtitle{
+  color: white;
+}
+
+
+
+/*Buttons*/
+.btn-html{
+  border: 1px solid rgb(0, 140, 255);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(0, 140, 255);
+}
+.btn-css{
+  border: 1px solid rgb(255, 115, 255);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(255, 115, 255);
+}
+.btn-js{
+  border: 1px solid #fff099;
+  border-radius: 30px;
+  background-color: black;
+  color: #fff099;
+}
+.btn-python{
+  border: 1px solid #275C87;
+  border-radius: 30px;
+  background-color: black;
+  color: #275C87;
+}
+.btn-bootstrap{
+  border: 1px solid rgb(116, 60, 190);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(116, 60, 190);
+}
+.btn-ui{
+  border: 1px solid rgb(199, 107, 74);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(199, 107, 74);
+}
+.btn-responsive{
+  border: 1px solid rgb(95, 219, 95);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(102, 218, 102);
+}
+.btn-auto{
+  border: 1px solid lightblue;
+  border-radius: 30px;
+  background-color: black;
+  color: lightblue;
+}
+.btn-game{
+  border: 1px solid rgb(241, 99, 128);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(241, 99, 128);
+}
+.btn-pro{
+  border: 1px solid orange;
+  border-radius: 30px;
+  background-color: black;
+  color: orange;
+}
+.btn-game{
+  border: 1px solid rgb(0, 255, 242);
+  border-radius: 30px;
+  background-color: black;
+  color: rgb(0, 255, 242);
+}
+
+
+.cube {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  animation: turn 5s linear infinite;
+}
+#js{
+  background-color: #FFD600;
+}
+#css{
+  background-color: dodgerblue;
+}
+#html{
+  background-color: #E65100;
+}
+#photoshop{
+  background-color: #001E36;
+}
+#python{
+  background-color: #275C87;
+}
+#illustrator{
+  background-color: #320000; 
+}
+#premiere{
+  background-color: #00005B;
+}
+#bootstrap{
+  background-color: #553A7D;
+  width: 53px;
+}
+.front #js{
+  width: 100%;
+}
+
+
+.face {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  transition: transform 500ms;
+}
+
+.front {
+  transform: translateZ(25px);
+}
+.front img{
+  width: 90%;
+}
+
+.back {
+  transform: translateZ(-25px) rotateY(180deg);
+}
+.back img{
+  width: 100%;
+}
+
+.left {
+  transform: translateX(-25px) rotateY(-90deg);
+}
+.left img{
+  width: 100%;
+}
+
+.right {
+  transform: translateX(25px) rotateY(90deg);
+}
+.right img{
+  width: 100%;
+}
+
+.top {
+  transform: translateY(-25px) rotateX(90deg);
+}
+.top img{
+  width: 100%;
+}
+
+.bottom {
+  transform: translateY(25px) rotateX(-90deg);
+}
+.bottom img{
+    width: 100%;
+}
+
