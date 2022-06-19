@@ -1793,8 +1793,8 @@ header .logo a {
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 7rem;
 	}
-	#resume .timeline-block .timeline-content p{
-		color: #ffffff;
+	.timeline-block .timeline-content p{
+		color: black;
 	}
 }
 @media only screen and (max-width:480px) {

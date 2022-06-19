@@ -202,3 +202,17 @@
     width: 100%;
 }
 
+#other-courses-date{
+  color: white;
+}
+
+#other-courses-p{
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+
+.exeperiences-body{
+  color: white;
+}
